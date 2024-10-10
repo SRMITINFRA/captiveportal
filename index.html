@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Captive Portal Login</title>
-    <!-- Link to external CSS file -->
+    <!-- Link to the external CSS file -->
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
@@ -14,12 +14,27 @@
                 <!-- Placeholder for logo image, if needed -->
                 <img src="logo.png" alt="Logo" class="logo">
             </div>
-            <h2 style="font-family:verdana">Kindly Enter Your Registered Mobile Number to Login</h2>
+            <h2>Kindly Enter Your Registered Mobile Number to Login</h2>
             <form id="loginForm">
                 <input type="text" id="username" placeholder="Username" required>
                 <input type="password" id="password" placeholder="Password" required>
                 <input type="submit" value="Login">
             </form>
+            
+            <!-- Forgot Password Link -->
+            <div class="forgot-password">
+                <a href="http://192.168.15.254/customer_portal/" target="_blank">Forgot Password?</a>
+            </div>
+
+            <!-- Message Container -->
+            <div id="message" class="message"></div>
+            
+            <!-- Assistance Information -->
+            <div class="assistance-info">
+                <p>For Any Assistance</p>
+                <p>Email ID: <a href="mailto:srmistnetwork@gmail.com">srmistnetwork@gmail.com</a></p>
+                <p>Copyright by <a href="https://www.srmup.in" target="_blank">srmup.in</a></p>
+            </div>
         </div>
     </div>
 
